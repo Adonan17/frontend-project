@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 import Image from 'next/image'
 import Card from '@/components/Cards/Cards';
 
-const Page = () => {
+const BookList = () => {
 
     const dispatch = useDispatch();
 
@@ -35,4 +35,4 @@ const Page = () => {
   )
 }
 
-export default Page
+export default BookList
