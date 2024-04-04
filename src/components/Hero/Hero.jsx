@@ -47,7 +47,7 @@ export const Hero = () => {
         <div className='lg:w-[70%]'>
         <h1 className="text-5xl font-bold">Book of the day!</h1>
         <p className="py-6">{descRandom[0]}</p>
-        <button className="btn btn-primary bg-base-300 border-none hover:bg-base-100">Check it</button>
+          <button className="btn btn-primary bg-base-300 border-none hover:bg-base-300">Check it</button>
         </div>
     </div>
     </div>

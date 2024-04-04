@@ -4,9 +4,9 @@ import {useSelector, useDispatch }from 'react-redux'
 import { fetchContent } from '@/lib/features/content/contentSlice';
 import { useEffect, useState } from 'react';
 import Image from 'next/image'
-import Card from '@/components/Card/Card';
+import Card from '@/components/Cards/Cards';
 
-const page = () => {
+const Page = () => {
 
     const dispatch = useDispatch();
 
@@ -35,4 +35,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
