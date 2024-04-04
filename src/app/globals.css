@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "utendo-bold";
+  src: url("../../public/font/utendo-bold.ttf");
+}
+
+@font-face {
+  font-family: "utendo-black";
+  src: url("../../public/font/utendo-black.ttf");
+}
+
+@font-face {
+  font-family: "utendo-light";
+  src: url("../../public/font/utendo-light.ttf");
+}
+
+@font-face {
+  font-family: "utendo-medium";
+  src: url("../../public/font/utendo-medium.ttf");
+}
+
+@font-face {
+  font-family: "utendo-regular";
+  src: url("../../public/font/utendo-regular.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  min-width: 0;
+}
+
+body {
+  font-family: "utendo-regular";
+}
+
+/* ######### RESPONSIVE ######### */
+/* ### MOBILE ### */
+@media (max-width: 576px) {
+}
+
+/* ### TABLET ### */
+@media (min-width: 577px) and (max-width: 768px) {
+}
+
+/* ### DESKTOP ### */
+@media (min-width: 769px) and (max-width: 1024px) {
+}
+
+/* ### BIG DESKTOP ### */
+@media (min-width: 1025px) {
+}
