@@ -23,7 +23,7 @@ export default function Navbar() {
       </ul>
     </div>
     <div className="navbar-end">
-      <a className="btn">login</a>
+      <a className="btn hover:bg-base-300 border-none">login</a>
     </div>
   </div>
   );

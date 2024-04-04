@@ -22,9 +22,11 @@ export default function Home() {
 
   if (isLoading) {
     return (
-      <span className="loading loading-ring loading-lg"></span>
+      <div className='w-screen h-screen flex justify-center items-center'>
+        <span className="loading loading-ring loading-lg"></span>
+      </div>
     );
-  }
+}
 
   if (error) {
     return error;
