@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import StoreProvider from "./StoreProvider";
 import Navbar from "@/components/Navbar/Navbar";
+import Footer from "@/components/Footer/Footer";
 
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
         <body className={inter.className}>
           <Navbar></Navbar>
           {children}
+          <Footer />
           </body>
       </html>
     </StoreProvider>

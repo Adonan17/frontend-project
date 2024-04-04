@@ -36,7 +36,6 @@ export default function Home() {
     >
       <Hero></Hero>
       <Carousel />
-      <Footer />
     </div>
   );
 }
